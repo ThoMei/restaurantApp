@@ -161,3 +161,13 @@ getParameterByName = (name, url) => {
     return '';
   return decodeURIComponent(results[2].replace(/\+/g, ' '));
 }
+
+/* Function to add tabIndex to Reviews List */
+
+window.onload = function () {
+  const reviewsList = document.getElementById('reviews-list').children;
+  for (i = 0; i < reviewsList.length; i++) {
+    reviewsList[i].tabIndex = 7;
+    console.log("success");
+  };
+}
