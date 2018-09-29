@@ -171,3 +171,5 @@ window.onload = function () {
     console.log("success");
   };
 }
+
+// Service Worker Registration //
